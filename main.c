@@ -2,7 +2,14 @@
 
 
 // This is where you add the two functions
-
+float fahrenheit_to_celsius(float a){
+    float c = (a-32)*5/9;
+    return c;
+}
+float celsius_to_fahrenheit(float b){
+    float f = b*9/5+32;
+    return f;
+}
 int main() {
     float temp_f = 100.0;
     float temp_c = 37.0;
